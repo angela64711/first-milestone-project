@@ -1,10 +1,27 @@
 /* Google Fonts Import */
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
-body {
-  font-family: "Source Sans 3", sans-serif;
+/* CSS Variables */
+
+:root {
+  --primary-font: "Source Sans 3", sans-serif;
+  --secondary-font: "Merriweather", serif;
+  --primary-color: #4a4a4a; /*charcoal*/
+  --secondary-color: #dfa5b1; /*Cherry blossom*/
+  --highlight-color: #b76e79; /*Dusty rose*/
+  --light-highlight-color: #adc2b2; /*Ash grey*/
+  --non-white-backgrouns: #f5e9e0; /*linen*/
 }
 
-h1 {
-  font-family: Merriweather, serif;
+/* Global Styles */
+
+body {
+  font-family: var(--primary-font);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
 }
