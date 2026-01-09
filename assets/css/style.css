@@ -7,10 +7,10 @@
   --primary-font: "Source Sans 3", sans-serif;
   --secondary-font: "Merriweather", serif;
   --primary-color: #4a4a4a; /*charcoal*/
-  --secondary-color: #dfa5b1; /*Cherry blossom*/
-  --highlight-color: #b76e79; /*Dusty rose*/
-  --light-highlight-color: #adc2b2; /*Ash grey*/
-  --non-white-backgrouns: #f5e9e0; /*linen*/
+  --secondary-color: #e4b4bc; /*soft pink*/
+  --highlight-color: #b76e79; /*dusty rose*/
+  --light-highlight-color: #adc2b2; /*sage-green*/
+  --non-white-backgrounds: #faf4e0; /*off-white*/
 }
 
 /* Global Styles */
@@ -20,8 +20,13 @@ body {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   font-family: var(--secondary-font);
   color: var(--highlight-color);
+}
+
+/* Navbar */
+
+#navbar {
+  background-color: var(--non-white-backgrounds);
 }
