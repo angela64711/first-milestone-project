@@ -7,13 +7,14 @@
  2. Goals and User Needs
  3. User Stories
  4. Information Architecture
- 5. Wireframes
+ 5. Content Strategy
  6. Design Decisions
- 7. Responsiveness and Accessibility
- 8. Technologies Used
- 9. Testing
- 10. Future Improvements and Additional Features
- 11. Credits and Disclaimer
+ 7. Wireframes 
+ 8. Responsiveness and Accessibility 
+ 9. Technologies Used
+ 10. Testing 
+ 11. Future Improvements and Additional Features
+ 12. Credits and Disclaimer
 
 ---
 
@@ -179,6 +180,35 @@ As a pregnant person browsing the website on my mobile phone, I want to quickly 
 ---
 
 ## 4. Information Architecture
+
+The website uses a simple and clear structure with the following pages:
+- Home
+- About Me
+- Services
+- Contact
+The information architecrture of the website was designed to prioritize clarity, emotional safety, and ease of navigation, especially for mobile users. Content is organised into a small number of clearly labelled pages to reduce cognitive load and help users quickly find the information most relevant to their needs.
+The main navigation includes Home, About Me, Services and contact. Services-related information is grouped into four main categories that correspond to the service cards on the home page. This consistency allows users to form a clear and mental model as they move between the pages.
+Long-form personal content, such as the doula's story and background, is placed on the About Me page and presented in a linear layout to support comfotrable reading. Credentials, languages, and testimonials are positioned after the personal narrative to reinforce trust without interrupting the emotional flow.
+The contact page was designed with a simple primary goal: to enable the user to easily get in touch. On larger screens, additional text was used to balance the layout, while keeping the form as the main focus.
+All pages are accessible from the main navigation on all screen sizes.
+The footer was intentionally kept minimal, containing only social media links, to avoid distractions and keep the focus on the primary user journey.
+
+---
+
+## 5. Content Strategy
+
+Due to the nature of doula work, content plays an integral role in this website. The written content is rich and was designed to create a sense of safety, trust, and emotional support, while remaining clear and informative. 
+A calm, empathetic, and non-judgemental tone was chosen to reflect the sensitive topics of pregnancy, birth, postpartum care, and fertility challenges. Language was kept accessible, warm and human, intentionally avoiding overly clinical or promotional wording.
+Content was prioritised based on user needs, with sensitive information presented clearly and personal storytelling used to build connection and credibility.
+Testimonials and credentials were included selectively to reinforce trust without overwhelming the user.
+Pages such as "Giving Birth in Berlin" were intntionally excluded to keep the site focused on the doula's services and personal approach rather than general information content. It was determined that such information, along with practical details about the collaboration and navigating the german healthcare system would be better and more concisely presented as part of a FAQs section, that could be incorporated to the website in the future.
+
+---
+
+## 6. Design Decisions
+
+
+
 
 
 
