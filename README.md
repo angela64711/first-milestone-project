@@ -21,9 +21,8 @@
 
 ## 1. Project Overview
 
-This project is a responsive mobile-first website designed for an english-speaking full spectrum doula in Berlin, named Evita Varela.
+This project is a responsive mobile-first website designed for an english-speaking full spectrum doula in Berlin, named Evita Varela. 
 The website aims to provide clear information about services, build trust through storytelling and testimonials, and make it easy for users to get in touch.
-The business goal is to increase the doulas clientbase.
 
 The project was created as part of a coding sourse at Code Institute and focuses on thoughful UX decisions, accessibility, and clean front end implementation.
 
@@ -31,13 +30,38 @@ The project was created as part of a coding sourse at Code Institute and focuses
 
 ## 2. Goals and User Needs
 
-The primary goals of the project are:
-- To present the information clearly and calmly, especially for users navigating pregnancy, birth and postpartum recovery or fertility challenges
-- To ensure users can easily find key information on mobile devices
-- To create an emotionally suportive and trustworthy visual tone
-- To provide a simple and accessible way to contact the doula
+### User Goals
 
-The target users are pregnant women, partners, and individuals experiencing fertility challenges who are seeking support in English in Berlin.
+The target audience for this website are women, who are navigating pregnancy, birth and postpartum recovery, their partners, and individuals experiencing fertility challenges who are seeking support in English in Berlin.
+
+The primary goals of the target audience are:
+- To find information about their needs easily
+- To assess if the doula is qualified and trustworthy
+- To be able to contact her easily
+- To be reassured that their needs will be met in a thoughtful, warm and non-judgemental way, especially for those reaching out about their challenges
+- To not feel pressured into making a decision about getting in contact
+- To examine if the services povided are within their budget
+- To find out what the psysichal and emotional benefits wil be
+
+ This website is a great way for the potential clients to meet their needs, because
+- The information is presented clearly and calmly 
+- The users can easily find key information, quickly, even on mobile devices
+- The visual tone of the website is emotionally suportive and trustworthy
+- It provides a simple and accessible way to contact the doula
+- The overall feel of the website is grounded, reassuring and calm
+
+### Business Goals
+
+The business goal is to increase the doulas clientbase, by providing thoughtful and reliable information about her work, her values, her background and her credentials.
+She is currently relying on a simple, template-made website she created, without having any knowledge or experience in UI/UX design.
+
+To meet her goal:
+- Careful and targeted decisions were made, redaring content, layout and appearence, taking into account the nature of her work and the very specific target audience
+- The content was adjusted from her current website, after being reworked. The language used is less clinical and academic and more warm, caring, inclusive and sensitive, without it feeling exaggerated or fluffy
+- The scope of her work is presented clearly, revealing the depth of her training and knowledge
+- It promotes trust, honesty, care, connection and reflects her values and philoshophy
+- The presetation of her voice is strong and authentic, promoted by the compelling writing of her personal story
+- The overall feel is user-friandly, professional, thoughtful and respectful
 
 ---
 
@@ -204,6 +228,7 @@ A calm, empathetic, and non-judgemental tone was chosen to reflect the sensitive
 Content was prioritised based on user needs, with sensitive information presented clearly and personal storytelling used to build connection and credibility.
 Testimonials and credentials were included selectively to reinforce trust without overwhelming the user.
 Pages such as "Giving Birth in Berlin" were intntionally excluded to keep the site focused on the doula's services and personal approach rather than general information content. It was determined that such information, along with practical details about the collaboration and navigating the german healthcare system would be better and more concisely presented as part of a FAQs section, that could be incorporated to the website in the future.
+I decided to use consistent, neutral, symbolic imagery for each service section and backgound to support recognition, inclusivity, consistency, emotial restraint, reduced visual noise, and maintain a calm, cohesive exerience. I intentionally avoided using the expected imagery of pregnant bellies, birth scenes, newborn babies and pregnancy tests, in order to not trigger strong emotions and exclude individuals with fertility struggles, pregnancy loss or non-visible pregnancies. That would be distracting from the service the doula provides, make the site feel more literal than supportive and emotionally safe. In addition it would make the site feel like it is about the baby, not the woman. I was midful in the way the form, the links to the services and the CTAs were designed and the placement of the prices, to ensure that the website does not feel transactional and promotional. 
 
 ---
 
@@ -273,6 +298,7 @@ The following technologies were used for the development of the website:
 ---
 
 ## 13. Credits and Disclaimer
+
 
 
 
