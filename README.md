@@ -229,6 +229,7 @@ Two fonts were selected:
 Black and white images are used for service related sections to maintain consistency and calmness.
 Color images are reserved exclusively for the doula herself to create a personal connection and convey warmth and joy.
 
+---
 
 ## 7. Wireframes
 
@@ -245,6 +246,7 @@ Accessibility considerations include:
 - Visible form labels
 - Distintive buttons and links
 
+---
 
 ## 9. Technologies Used
 
@@ -253,6 +255,9 @@ The following technologies were used for the development of the website:
 - CSS
 - Bootstrap5
 - tldraw
+
+---
+
 
 
 
