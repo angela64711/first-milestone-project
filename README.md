@@ -209,12 +209,12 @@ As a pregnant person browsing the website on my mobile phone, I want to quickly 
 
 The website uses a simple and clear structure with the following pages:
 - Home
-- About Me
 - Services
+- About Me
 - Contact
 
 The information architecrture of the website was designed to prioritize clarity, emotional safety, and ease of navigation, especially for mobile users. Content is organised into a small number of clearly labelled pages to reduce cognitive load and help users quickly find the information most relevant to their needs.
-The main navigation includes Home, About Me, Services and contact. Services-related information is grouped into four main categories that correspond to the service cards on the home page. This consistency allows users to form a clear and mental model as they move between the pages.
+The main navigation includes Home, Services, About Me, and contact. Services-related information is grouped into four main categories that correspond to the service cards on the home page. This consistency allows users to form a clear and mental model as they move between the pages.
 Long-form personal content, such as the doula's story and background, is placed on the About Me page and presented in a linear layout to support comfotrable reading. Credentials, languages, and testimonials are positioned after the personal narrative to reinforce trust without interrupting the emotional flow.
 The contact page was designed with a simple primary goal: to enable the user to easily get in touch. On larger screens, additional text was used to balance the layout, while keeping the form as the main focus.
 All pages are accessible from the main navigation on all screen sizes.
@@ -299,6 +299,7 @@ The following technologies were used for the development of the website:
 ---
 
 ## 13. Credits and Disclaimer
+
 
 
 
