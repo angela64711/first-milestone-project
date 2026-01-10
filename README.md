@@ -235,6 +235,8 @@ Color images are reserved exclusively for the doula herself to create a personal
 
 Low-fidelity wireframes were created to define layout, content hierarchy, and user flow before development. They follow a mobile-first approach and demonstrate how the sections adapt across different screen sizes.
 
+---
+
 ## 8. Responsiveness and Accessibility
 
 The website was designed using a mobile-first approach which was developed with Bootstrap 5.
@@ -258,6 +260,19 @@ The following technologies were used for the development of the website:
 
 ---
 
+## 10. Bugs and Fixes
+
+---
+
+## 11. Testing
+
+---
+
+## 12. Future Improvements and Additional Features
+
+---
+
+## 13. Credits and Disclaimer
 
 
 
