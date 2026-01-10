@@ -12,9 +12,10 @@
  7. Wireframes 
  8. Responsiveness and Accessibility 
  9. Technologies Used
- 10. Testing 
- 11. Future Improvements and Additional Features
- 12. Credits and Disclaimer
+ 10. Bugs and Fixes
+ 11. Testing 
+ 12. Future Improvements and Additional Features
+ 13. Credits and Disclaimer
 
 ---
 
@@ -186,6 +187,7 @@ The website uses a simple and clear structure with the following pages:
 - About Me
 - Services
 - Contact
+
 The information architecrture of the website was designed to prioritize clarity, emotional safety, and ease of navigation, especially for mobile users. Content is organised into a small number of clearly labelled pages to reduce cognitive load and help users quickly find the information most relevant to their needs.
 The main navigation includes Home, About Me, Services and contact. Services-related information is grouped into four main categories that correspond to the service cards on the home page. This consistency allows users to form a clear and mental model as they move between the pages.
 Long-form personal content, such as the doula's story and background, is placed on the About Me page and presented in a linear layout to support comfotrable reading. Credentials, languages, and testimonials are positioned after the personal narrative to reinforce trust without interrupting the emotional flow.
@@ -206,6 +208,53 @@ Pages such as "Giving Birth in Berlin" were intntionally excluded to keep the si
 ---
 
 ## 6. Design Decisions
+
+### Color palette
+
+The color palette was chosen to evoke calm, warmth, and trust. Soft, neutural tones are combined with muted accents to support emotional safety.
+Key colors include:
+- Neutral tones for readability
+- Warm pinks for emphasis and headings
+- Soft green for balance and calm
+
+### Typography
+
+Two fonts were selected:
+-  Merriweather for headings to convey warmth and trust
+-  Source Sans 3 for body text to ensure readability across devices
+
+
+### Imagery
+
+Black and white images are used for service related sections to maintain consistency and calmness.
+Color images are reserved exclusively for the doula herself to create a personal connection and convey warmth and joy.
+
+
+## 7. Wireframes
+
+Low-fidelity wireframes were created to define layout, content hierarchy, and user flow before development. They follow a mobile-first approach and demonstrate how the sections adapt across different screen sizes.
+
+## 8. Responsiveness and Accessibility
+
+The website was designed using a mobile-first approach which was developed with Bootstrap 5.
+
+Accessibility considerations include:
+- Clear navigation
+- Readable font sizes
+- Sufficient color contrast
+- Visible form labels
+- Distintive buttons and links
+
+
+## 9. Technologies Used
+
+The following technologies were used for the development of the website:
+- HTML
+- CSS
+- Bootstrap5
+- tldraw
+
+
 
 
 
