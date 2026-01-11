@@ -16,6 +16,8 @@
 /* Global Styles */
 
 body {
+  width: 100%;
+  overflow-x: hidden;
   font-family: var(--primary-font);
 }
 
@@ -50,6 +52,10 @@ h3 {
   margin-bottom: 3rem;
 }
 
+.hero-text {
+  font-size: large;
+}
+
 .custom-button {
   background-color: var(--secondary-color);
   color: var(--primary-color);
@@ -63,7 +69,7 @@ h3 {
 
 /* Service cards on home page */
 
-#services-home h5 {
+#services-home h4 {
   color: var(--highlight-color);
   padding-top: 1rem;
 }
@@ -74,8 +80,20 @@ h3 {
 
 /* About Me preview on Home Page */
 
+#about-me-home {
+  padding-top: 10px;
+}
+
 #doula-home-pic {
   border: 5px solid var(--light-highlight-color);
+}
+
+#about-preview-text {
+  padding-top: 10px;
+}
+
+#about-preview-text p {
+  padding: 10px;
 }
 
 /* Footer */
