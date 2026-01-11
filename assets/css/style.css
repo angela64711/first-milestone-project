@@ -61,6 +61,16 @@ h3 {
   background-color: var(--light-highlight-color);
 }
 
+/* Service cards on home page */
+
+#services-home h5 {
+  color: var(--highlight-color);
+}
+
+#card {
+  padding: 1rem;
+}
+
 /* Footer */
 
 .footer {
