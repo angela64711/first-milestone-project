@@ -30,3 +30,18 @@ h2 {
 #navbar {
   background-color: var(--non-white-backgrounds);
 }
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  gap: 1.5rem;
+  background-color: var(--non-white-backgrounds);
+}
+
+.footer a {
+  color: var(--highlight-color);
+  font-size: 1.5rem;
+}
