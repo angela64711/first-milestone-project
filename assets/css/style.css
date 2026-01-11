@@ -7,10 +7,10 @@
   --primary-font: "Source Sans 3", sans-serif;
   --secondary-font: "Merriweather", serif;
   --primary-color: #4a4a4a; /*charcoal*/
-  --secondary-color: #efd2d7; /*soft pink*/
+  --secondary-color: #f4e1e4; /*soft pink*/
   --highlight-color: #b76e79; /*dusty rose*/
   --light-highlight-color: #adc2b2; /*sage-green*/
-  --non-white-backgrounds: #faf4e0; /*off-white*/
+  --non-white-backgrounds: #f2ece8; /*off-white*/
 }
 
 /* Global Styles */
@@ -69,22 +69,38 @@ h3 {
 
 /* Service cards on home page */
 
+.services-home {
+  background-color: lightgrey;
+}
+
 #services-home h3 {
   color: var(--highlight-color);
 }
 
+.card-holder {
+  margin-bottom: 1rem;
+}
+
 .card {
   border: 3px solid var(--light-highlight-color);
+
+  padding: 0; /*removes the extra left and right padding created by the card class. The div inside already has enough padding for the content*/
+}
+
+.card-text {
+  min-height: 150px;
 }
 
 /* About Me preview on Home Page */
 
 #about-me-home {
+  background-color: var(--secondary-color);
   padding-top: 10px;
 }
 
 #doula-home-pic {
-  border: 5px solid var(--light-highlight-color);
+  border: 3px solid var(--light-highlight-color);
+  height: 300px;
 }
 
 #about-preview-text {
@@ -112,4 +128,33 @@ h3 {
 
 .footer a:hover {
   color: var(--light-highlight-color);
+}
+
+/* Media Queries */
+
+/* Medium devices (tablets, 768px and up) */
+
+@media screen and (min-width: 768px) {
+  #doula-home-pic {
+    min-height: 400px;
+  }
+}
+
+/* Large devices (small laptops, 992px and up) */
+
+@media screen and (min-width: 992px) {
+  #doula-home-pic {
+  }
+
+  card-text {
+    min-height: 0;
+  }
+}
+
+/* Extra-Large devices (Desktops, 1400px and up) */
+
+@media screen and (min-width: 1400px) {
+  #doula-home-pic {
+    max-height: 400px;
+  }
 }
