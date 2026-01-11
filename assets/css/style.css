@@ -20,7 +20,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: var(--secondary-font);
   color: var(--highlight-color);
 }
@@ -29,6 +30,35 @@ h2 {
 
 #navbar {
   background-color: var(--non-white-backgrounds);
+}
+
+/* Main Content */
+
+/* Hero Section */
+
+#hero {
+  background: url(../images/hero.webp);
+  background-color: #adc2b2;
+  padding-top: 5rem;
+  background-size: cover;
+  min-height: 300px;
+  margin: 0;
+  width: 100%;
+}
+
+#hero h2 {
+  margin-bottom: 3rem;
+}
+
+.custom-button {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: none;
+  margin-top: 2rem;
+}
+
+.custom-button:hover {
+  background-color: var(--light-highlight-color);
 }
 
 /* Footer */
@@ -44,4 +74,8 @@ h2 {
 .footer a {
   color: var(--highlight-color);
   font-size: 1.5rem;
+}
+
+.footer a:hover {
+  color: var(--light-highlight-color);
 }
