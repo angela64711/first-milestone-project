@@ -69,9 +69,8 @@ h3 {
 
 /* Service cards on home page */
 
-#services-home h4 {
+#services-home h3 {
   color: var(--highlight-color);
-  padding-top: 1rem;
 }
 
 .card {
