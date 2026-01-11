@@ -312,6 +312,12 @@ The following technologies were used for the development of the website:
 
 ## 10. Bugs and Fixes
 
+### Bug 1: Spacing using Bootstrap Classes
+
+I found it really difficult to space the service cards on the home page correctly, especially when it came to horizontal spacing.
+I studied the various spacing classes carefully and I created a useful table showing how the spacing classes work, to have available moving forward.
+I also researched on stack overflow and I realised that I had applied .card and .col on the same element, which aparently broke Bootstraps grid gutters.
+
 ---
 
 ## 11. Testing

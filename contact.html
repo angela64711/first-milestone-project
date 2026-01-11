@@ -51,8 +51,54 @@
     </nav>
 
     <!-- Main Content -->
+    <main id="contact">
+      <section id="contact-form">
+        <form method="post" action="#">
+          <h2>Let's get you signed up!</h2>
+          <label for="first-name">Name</label>
+          <input class="text-input" id="name" type="text" name="name" required />
+          <br />
 
-    <p>Contact</p>
+          <label for="email-address">Email</label>
+          <input class="text-input" id="email-address" type="text" name="email_address" required />
+          <br />
+          <div class="radio-buttons">
+            <div>
+              <label for="road">Road</label>
+              <input
+                type="radio"
+                name="running_preference"
+                id="road"
+                value="road"
+                required
+                checked />
+            </div>
+            <div>
+              <label for="trail">Trail</label>
+              <input
+                type="radio"
+                name="running_preference"
+                id="trail"
+                value="trail"
+                required
+                checked />
+            </div>
+            <div>
+              <label for="both">Both</label>
+              <input
+                type="radio"
+                name="running_preference"
+                id="both"
+                value="both"
+                required
+                checked />
+            </div>
+          </div>
+          <button type="submit" class="join-button">Send Message</button>
+        </form>
+      </section>
+    </main>
+
     <!-- Footer / Social Media Links -->
     <footer class="footer">
       <a

@@ -7,7 +7,7 @@
   --primary-font: "Source Sans 3", sans-serif;
   --secondary-font: "Merriweather", serif;
   --primary-color: #4a4a4a; /*charcoal*/
-  --secondary-color: #e4b4bc; /*soft pink*/
+  --secondary-color: #efd2d7; /*soft pink*/
   --highlight-color: #b76e79; /*dusty rose*/
   --light-highlight-color: #adc2b2; /*sage-green*/
   --non-white-backgrounds: #faf4e0; /*off-white*/
@@ -65,10 +65,17 @@ h3 {
 
 #services-home h5 {
   color: var(--highlight-color);
+  padding-top: 1rem;
 }
 
-#card {
-  padding: 1rem;
+.card {
+  border: 3px solid var(--light-highlight-color);
+}
+
+/* About Me preview on Home Page */
+
+#doula-home-pic {
+  border: 5px solid var(--light-highlight-color);
 }
 
 /* Footer */
