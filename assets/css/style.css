@@ -54,6 +54,7 @@ h3 {
 
 .hero-text {
   font-size: large;
+  font-family: var(--secondary-font);
 }
 
 .custom-button {
