@@ -13,7 +13,7 @@
   --non-white-backgrounds: #f2ece8; /*off-white*/
 }
 
-/* Global Styles */
+/* -----------------------------------------------Global Styles */
 
 body {
   width: 100%;
@@ -28,15 +28,15 @@ h3 {
   color: var(--highlight-color);
 }
 
-/* Navbar */
+/* ----------------------------------------------------Navbar */
 
 #navbar {
   background-color: var(--non-white-backgrounds);
 }
 
-/* Main Content */
+/* -----------------------------------------------Main Content */
 
-/* Hero Section */
+/* -------------------------------------------------Hero Section */
 
 #hero {
   background: url(../images/hero.webp);
@@ -68,7 +68,7 @@ h3 {
   background-color: var(--light-highlight-color);
 }
 
-/* Service cards on home page */
+/* ---------------------------------------------------------------Service cards on home page */
 
 .services-home {
   background-color: lightgrey;
@@ -84,15 +84,15 @@ h3 {
 
 .card {
   border: 3px solid var(--light-highlight-color);
-
-  padding: 0; /*removes the extra left and right padding created by the card class. The div inside already has enough padding for the content*/
+  /*removes the extra left and right padding created by the card class. The div inside already has enough padding for the content*/
+  padding: 0;
 }
 
 .card-text {
   min-height: 150px;
 }
 
-/* About Me preview on Home Page */
+/* ------------------------------------------------------About Me preview on Home Page */
 
 #about-me-home {
   background-color: var(--secondary-color);
@@ -112,7 +112,14 @@ h3 {
   padding: 10px;
 }
 
-/* Footer */
+/* -----------------------------------------------------------Services Page */
+
+.services-picture {
+  max-width: 100%;
+  height: auto;
+}
+
+/* -----------------------------------------------------------------Footer */
 
 .footer {
   display: flex;
@@ -131,7 +138,7 @@ h3 {
   color: var(--light-highlight-color);
 }
 
-/* Media Queries */
+/* ----------------------------------------------------------------------------Media Queries */
 
 /* Medium devices (tablets, 768px and up) */
 
