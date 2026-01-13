@@ -318,6 +318,10 @@ I found it really difficult to space the service cards on the home page correctl
 I studied the various spacing classes carefully and I created a useful table showing how the spacing classes work, to have available moving forward.
 I also researched on stack overflow and I realised that I had applied .card and .col on the same element, which aparently broke Bootstraps grid gutters.
 
+### Bug 2: Favicon not showing
+
+The favicons I created were not showing at all. I tried reistalling them, commitimg the change and pushing. It didin't work. I searched on the Stackoverflow forum and it turned out, that I hadn't adjusted the file paths to the images. The generated code to copy from favicon.io had not taken into account the file paths and simply listed the name of the image file in the link.
+
 ---
 
 ## 11. Testing
