@@ -6,11 +6,16 @@
 :root {
   --primary-font: "Source Sans 3", sans-serif;
   --secondary-font: "Merriweather", serif;
-  --primary-color: #4a4a4a; /*charcoal*/
-  --secondary-color: #f4e1e4; /*soft pink*/
-  --highlight-color: #b76e79; /*dusty rose*/
-  --light-highlight-color: #adc2b2; /*sage-green*/
-  --non-white-backgrounds: #f2ece8; /*off-white*/
+  --primary-color: #4a4a4a;
+  /*charcoal*/
+  --secondary-color: #f4e1e4;
+  /*soft pink*/
+  --highlight-color: #b76e79;
+  /*dusty rose*/
+  --light-highlight-color: #adc2b2;
+  /*sage-green*/
+  --non-white-backgrounds: #f2ece8;
+  /*off-white*/
 }
 
 /* -----------------------------------------------Global Styles */
@@ -162,8 +167,7 @@ h3 {
 /* Large devices (small laptops, 992px and up) */
 
 @media screen and (min-width: 992px) {
-  #doula-home-pic {
-  }
+  #doula-home-pic {}
 
   card-text {
     min-height: 0;
