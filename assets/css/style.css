@@ -130,7 +130,12 @@ h3 {
   border: 2px solid var(--light-highlight-color);
 }
 
-.services-line {
+/* ---------------------------------------------------About Me Page*/
+
+#doula-bio-pic {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid var(--light-highlight-color);
 }
 
 /* -----------------------------------------------------------------Footer */
