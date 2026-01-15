@@ -70,7 +70,7 @@ h3 {
   background-color: var(--secondary-color);
   color: var(--primary-color);
   border: none;
-  margin-top: 2rem;
+  
 }
 
 .custom-button:hover {
