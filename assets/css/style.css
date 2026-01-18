@@ -1,6 +1,7 @@
 /* Google Fonts Import */
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
+
 /* CSS Variables */
 
 :root {
@@ -147,12 +148,23 @@ h3 {
   border: 2px solid var(--light-highlight-color);
 }
 
+#services li::marker {
+  /*Replaces the bullet point in the lists with a unicode flower, ::marker is a pseudo element*/
+  content: "\2740";
+  color: var(--light-highlight-color);
+}
+
 /* ---------------------------------------------------About Me Page*/
 
 #doula-bio-pic {
   max-width: 100%;
   height: auto;
   border: 2px solid var(--light-highlight-color);
+}
+
+#my-story {
+  background: #faf4f0;
+  margin-top: 2rem;
 }
 
 /* -----------------------------------------------------------------Footer */
