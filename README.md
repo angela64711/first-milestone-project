@@ -1,27 +1,4 @@
 ﻿
-
-
-
-
-
-## 8. Responsiveness and Accessibility
-
-The website was designed using a mobile-first approach which was developed with Bootstrap 5.
-
-Accessibility considerations include:
-
-- Clear navigation
-- Readable font sizes
-- Sufficient color contrast
-- Visible form labels
-- Distintive buttons and links
-
----
-
-
-
-
-
 # [first-milestone-project](https://angela64711.github.io/first-milestone-project)
 
 Developer: Angeliki Kyratzidou ([angela64711](https://www.github.com/angela64711))
@@ -196,6 +173,18 @@ I've used [tldraw](https://www.tldraw.com/) to design my site wireframes.
 | As a ready-to-reach-out client | I want an easy, calming way to make contact | so reaching out doesn’t feel stressful. |
 | As a pregnant person browsing the website on my mobile phone | I want to quickly find the information I'm looking for, using a clear and simple navigation | so that I feel supported and not overwhelmed while exploring the doula's services. |
 | As a doula | I want visitors to clearly understand my personal story, values, and motivations for becoming a doula | so that they feel an emotional connection and trust me before reaching out.
+
+## Responsiveness and Accessibility
+
+The website was designed using a mobile-first approach which was developed with Bootstrap 5.
+
+Accessibility considerations include:
+
+- Clear navigation
+- Readable font sizes
+- Sufficient color contrast
+- Visible form labels
+- Distintive buttons and links
 
 
 ## Features
