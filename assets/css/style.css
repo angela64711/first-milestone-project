@@ -44,6 +44,7 @@ h3 {
 
 #navbar {
   background-color: var(--non-white-backgrounds);
+  box-shadow: 0 1px 6px var(--primary-color);
 }
 
 /* -----------------------------------------------Main Content */
@@ -58,7 +59,7 @@ h3 {
   background-position: center;
   width: 100%;
   min-height: 70vh;
-}
+}  
 
 #hero h1 {
   margin-top: 5rem;
@@ -77,7 +78,6 @@ h3 {
   background-color: var(--secondary-color);
   color: var(--primary-color);
   border: none;
-  
 }
 
 .custom-button:hover {
@@ -87,10 +87,8 @@ h3 {
 /* ---------------------------------------------------------------Service cards on home page */
 
 #services-home {
-  background: lightgrey;
- 
-  
-}
+  background: #faf4f0;
+ }
 
 #services-home h3 {
   color: var(--highlight-color);
@@ -101,8 +99,19 @@ h3 {
   /*removes the extra left and right padding created by the card class. The div inside already has enough padding for the content*/
   padding: 0;
   border-radius: 0;
-  
+  box-shadow: #adc2b2;
 }
+
+.card-link {
+  color: var(--primary-color);
+}
+
+.card-link:hover {
+  color: white;
+  background-color: var(--light-highlight-color);
+  border: none;
+}
+
 
 /* ------------------------------------------------------About Me preview on Home Page */
 
@@ -154,6 +163,7 @@ h3 {
   padding: 1rem 0;
   gap: 1.5rem;
   background-color: var(--non-white-backgrounds);
+  box-shadow: 0 -1px 6px var(--primary-color);
 }
 
 .footer a {
