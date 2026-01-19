@@ -19,7 +19,23 @@ It was intentionally based on a real professional, rather than a fictional perso
 
 ## Site Mockups
 
+[techsini](https://techsini.com/multi-mockup) was used to create the mockups of the website.
 
+### Home Page mockup
+
+![screenshot](documentation/mockup/home-page-mockup.png)
+
+### Services Page mockup
+
+![screenshot](documentation/mockup/services-page-mockup.png)
+
+### About Me Page mockup
+
+![screenshot](documentation/mockup/aboutme-page-mockup.png)
+
+### Contact Page mockup
+
+![screenshot](documentation/mockup/contact-page-mockup.png)
 
 ## UX
 
