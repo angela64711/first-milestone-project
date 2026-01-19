@@ -148,7 +148,7 @@ I used [coolors.co](https://coolors.co/dfa5b1-4a4a4a-adc2b2-b76e79-f5e9e0) to ge
 - `#adc2b2` secondary highlights.
 - `#f5e9e0` non-white backgrounds
 
-![screenshot](documentation/coolors.png)
+![screenshot](documentation/colors/color-palette.png)
 
 ### Typography
 
@@ -358,7 +358,7 @@ Below I list the exact attributions.
 | [Vecteezy image by Oleg Gapeenko](https://www.vecteezy.com/free-photos/sunlight) | Hero image |
 | [Vecteezy Image by pana design](https://www.vecteezy.com/photo/53252934-close-up-mockup-of-woman-hands-holding-a-blank-white-book-ideal-for-book-cover-design-branding-and-product-display-minimalist-and-cozy-scene) | Infertility support section |
 | [Vecteezy image by Divine123 victory](https://www.vecteezy.com/photo/74180253-human-hands-gently-holding-a-warm-white-ceramic-mug-evoking-feelings-of-comfort-and-relaxation-indoors) | Postpartum Support section |
-| [Vecteezy image by Divine123 victory](https://www.vecteezy.com/photo/73750975-two-people-holding-hands-across-table-with-coffee) | Birth Support section |
+| [Vecteezy image by Tatyana Makarova](https://www.vecteezy.com/photo/73750975-two-people-holding-hands-across-table-with-coffee) | Birth Support section |
 | [Canva image by TrueCreatives](https://www.canva.com/photos/MAG3_ny03qg-cozy-winter-window-seat-with-book) | Prenatal Support section |
 
 
