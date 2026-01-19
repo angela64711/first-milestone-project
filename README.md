@@ -154,13 +154,8 @@ Color images are reserved exclusively for the doula herself to create a personal
 To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
 I've used [tldraw](https://www.tldraw.com/) to design my site wireframes.
 
-| Page | Mobile | Tablet | Desktop |
-| --- | --- | --- | --- |
-| Home | ![screenshot](documentation/wireframes/..) | ![screenshot](documentation/wireframes/..) | ![screenshot](documentation/wireframes/..) |
-| Gallery | ![screenshot](documentation/wireframes/..) | ![screenshot](documentation/wireframes/..) | ![screenshot](documentation/wireframes/d..) |
-| Signup | ![screenshot](documentation/wireframes/..) | ![screenshot](documentation/wireframes/..) | ![screenshot](documentation/wireframes/..) |
-| Confirmation | ![screenshot](documentation/wireframes/..) | ![screenshot](documentation/wireframes/..) | ![screenshot](documentation/wireframes/..) |
-| 404 | ![screenshot](documentation/wireframes/..) | ![screenshot](documentation/wireframes/..) | ![screenshot](documentation/wireframes/d..) |
+![screenshot](documentation/wireframes/wireframe-ms1.png)
+
 
 ## User Stories
 
