@@ -17,6 +17,8 @@ The website aims to provide clear information about services, build trust throug
 The project was created as part of a coding sourse at Code Institute and focuses on thoughful UX decisions, accessibility, and clean front-end implementation.
 It was intentionally based on a real professional, rather than a fictional person or business. Working with an existing subject allowed for a more realistic design process, including real constraints, authentic content, and meaningful user needs. Due to the nature of doula work, the project required deeper consideration of user experience, content hierarchy, and tone. This encouraged additional UX research and reflection, perticularly around accessibility, emotional safety, and mobile usability. Choosing a real-world subject supported a more practical learning experience and helped bridge the gap between theoretical knowledge and real-life front-end development and design decision making.
 
+## Site Mockups
+
 
 
 ## UX
