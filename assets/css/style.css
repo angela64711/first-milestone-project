@@ -21,22 +21,37 @@
 
 /* -----------------------------------------------Global Styles */
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
 body {
-   font-family: var(--primary-font);
+  font-family: var(--primary-font);
 }
 
-body > footer {
+body>footer {
   position: sticky;
   top: 100%;
 }
 
+/*stabilizes width, prevents layout from expanding*/
+main {
+  width: 100%;
+  max-width: 100%;
+}
+
+/*Global box sizing reset, prevents padding-caused overflow*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 h1,
 h2,
-h3, 
+h3,
 h4 {
   font-family: var(--secondary-font);
   color: var(--highlight-color);
@@ -61,15 +76,15 @@ h4 {
   background-position: center;
   width: 100%;
   min-height: 70vh;
-}  
+}
 
 /*Creates a layered white shadow to make the headings more readalbe*/
 #hero h1,
 #hero h2 {
   /*1st line, closer to the letters, innerglow, defines the letter's edge.
   2nd line, outer glow, spreads wider, fades softly, blends into the photo*/
-  text-shadow:0 0 8px rgba(255, 255, 255, 0.9),
-  0 0 16px rgba(255, 255, 255, 0.6);
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.9),
+    0 0 16px rgba(255, 255, 255, 0.6);
 }
 
 #hero h1 {
@@ -99,7 +114,7 @@ h4 {
 
 #services-home {
   background: #faf4f0;
- }
+}
 
 #services-home h3 {
   color: var(--highlight-color);
@@ -116,7 +131,7 @@ h4 {
 
 .card-link {
   color: var(--primary-color);
- }
+}
 
 .card-link:hover {
   color: white;
@@ -157,6 +172,7 @@ h4 {
 .services-picture {
   max-width: 100%;
   height: auto;
+  display: block;
   border: 2px solid var(--light-highlight-color);
 }
 
@@ -212,10 +228,10 @@ h4 {
 /* Large devices (small laptops, 992px and up) */
 
 @media screen and (min-width: 992px) {
-  #doula-home-pic {}
 
-  card-text {
-    min-height: 0;
+  .card-body {
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 
