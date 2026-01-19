@@ -207,6 +207,10 @@ Accessibility considerations include:
 
 ### Future Features
 
+- **Testimonials Section**: *Evita varela* whishes to showcase testimonials from previous, satisfied clients clearly, so potential clients feel reassured and confident in their choice and understand her approach before contacting her.
+- **Translate the website into Greek and French**: The doula wishes her website to be available in all three languages, in which she is fluent, in oder to be able to reach more international families and expats and increase her clientbase.
+- **Blog**: Creating the layout and structure for a blog and linking it to the Home page or navbar, will allow the doula to showcase her work in writing articles and delving deeper into issues regarding pregnacy, birth and parenting. This will provide more information to the users, urging them to trust doula and hire her.
+- **FAQs Section**: Adding a FAQs section accessible from main navigation or footer, where practical questions, regarding the healthcare system, burocracy and other specific subjects, can be answered directly, will elevate the profile of the website. It will allow the users to find answers to common questions on the website easily and quickly, so that the doula spends less time responding to repetitive emails and messages. 
 
 ## Tools & Technologies
 
