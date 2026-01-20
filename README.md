@@ -263,6 +263,7 @@ Accessibility considerations include:
 | [CSS Tricks](https://css-tricks.com/) | Tutorials and Troubleshooting |
 | [Josh W. Comeau](https://www.joshwcomeau.com/) | CSS Tutorials |
 | [Nielsen Norman Group](https://www.nngroup.com/) | UX Design |
+| [LanguageTool](https://languagetool.org/) | Grammar and Spell Check |
 
 
 ## Agile Development Process
