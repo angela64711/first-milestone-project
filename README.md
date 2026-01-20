@@ -226,6 +226,20 @@ Accessibility considerations include:
 - **FAQs Section**: Adding a FAQs section accessible from main navigation or footer, where practical questions, regarding the healthcare system, burocracy and other specific subjects, can be answered directly, will elevate the profile of the website. It will allow the users to find answers to common questions on the website easily and quickly, so that the doula spends less time responding to repetitive emails and messages. 
 - **Connect the contact form to the doula's email**: Making the contact form functional, will ensure that the website can be used by *Evita Varela* as her actual business website.
 
+### User Stories for the future features
+
+| Target | Expectation | Outcome |
+| --- | --- | --- |
+| As someone unfamiliar with German maternity care | I want to understand how doula support works alongside doctors and midwives | so I feel confident choosing this service. |
+| As an expectant parent | I want to quickly understand bureaucratic and insurance-related aspects of hiring a doula in Germany | so that I can make an informed decision without stress. |
+| As a potential client | I want to know at which stages of pregnancy, birth and postpartum a doula can support me | so I can decide if and when to book her services. |
+| As a client considering support | I want to read detailed testimonials from other parents | so that I feel reassured and confident in my choice. |
+| As a doula | I want clients to find answers to common questions on my website | so that I spend less time responding to repetitive emails and messages. |
+| As a doula working in Berlin | I want my website available in English, Greek, and French, the languages in which I am fluent | so I can reach international families and expats. |
+| As a doula | I want to showcase testimonials and values clearly | so potential clients understand my approach before contacting me. |
+| As a business owner | concerned with connectivity and business growth | I want users reading FAQs or testimonials to be guided to contact me, so that interest turns into inquiries. |
+| As a business owner | I want the site structure to support adding content later | so the site can grow without redesign. |
+
 ## Tools & Technologies
 
 | Tool / Tech | Use |
@@ -242,6 +256,13 @@ Accessibility considerations include:
 | [![badge](https://img.shields.io/badge/StackOverflow-grey?logo=stackoverflow&logoColor=F58025)](https://stackoverflow.com) | Troubleshooting and Debugging |
 | [![badge](https://img.shields.io/badge/tldraw-grey?logo=tldraw&logoColor=FAFAFA)](https://www.tldraw.com) | Creating wireframes. |
 | [![badge](https://img.shields.io/badge/favicon.io-grey?logo=fi&logoColor=209CEE)](https://favicon.io) | Generating the favicon. |
+| [Techsini](https://techsini.com/multi-mockup/) | Generating the Mockups |
+| [Autoprefixer](https://autoprefixer.github.io/) | Adding prefixes to CSS for all browsers. |
+| [coolors.co](https://coolors.co/dfa5b1-4a4a4a-adc2b2-b76e79-f5e9e0) | Creating the color palette. |
+| [Geeks for Geeks](https://www.geeksforgeeks.org/) | Tutorials |
+| [CSS Tricks](https://css-tricks.com/) | Tutorials and Troubleshooting |
+| [Josh W. Comeau](https://www.joshwcomeau.com/) | CSS Tutorials |
+| [Nielsen Norman Group](https://www.nngroup.com/) | UX Design |
 
 
 ## Agile Development Process
@@ -250,7 +271,9 @@ Accessibility considerations include:
 
 [GitHub Projects](https://www.github.com/angela64711/first-milestone-project/projects) served as an Agile tool for this project. Through it, EPICs, User Stories, issues/bugs, and Milestone tasks were planned, then subsequently tracked on a regular basis using the Kanban project board.
 
-![screenshot](documentation/gh-projects.png)
+The project will be expanded in the future, by adding features according to the items remaining in the backlog of the Github Project Board.
+![screenshot](documentation/features/project-board.png)
+
 
 ### GitHub Issues
 
@@ -272,7 +295,6 @@ I've decomposed my Epics into User Stories for prioritizing and implementing the
 
 ## Testing
 
-> [!NOTE]  
 > For all testing, please refer to the [TESTING.md](TESTING.md) file.
 
 ## Deployment
