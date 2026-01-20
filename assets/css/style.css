@@ -281,6 +281,3 @@ h4 {
   }
 }
 
-/* NOTE: Service card buttons misalign slightly at some specific screen sizes, like 1500px and 1929px due to text reflow.
-  They function well at Bootstrap breakpoints.
-   Fix later with flex-based card layout if needed. */

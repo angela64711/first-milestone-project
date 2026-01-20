@@ -263,7 +263,7 @@ Accessibility considerations include:
 | [CSS Tricks](https://css-tricks.com/) | Tutorials and Troubleshooting |
 | [Josh W. Comeau](https://www.joshwcomeau.com/) | CSS Tutorials |
 | [Nielsen Norman Group](https://www.nngroup.com/) | UX Design |
-| [LanguageTool](https://languagetool.org/) | Grammar and Spell Check |
+| [LanguageTool](https://languagetool.org/) | Grammar and Spelling Check |
 
 
 ## Agile Development Process
@@ -280,18 +280,17 @@ The project will be expanded in the future, by adding features according to the 
 
 [GitHub Issues](https://www.github.com/angela64711/first-milestone-project/issues) served as an another Agile tool. There, I managed my User Stories and Milestone tasks, and tracked any issues/bugs.
 
-| Link | Screenshot |
-| --- | --- |
-| [![GitHub issues](https://img.shields.io/github/issues-search/angela64711/first-milestone-project?query=is%3Aissue%20is%3Aopen%20-label%3Abug&label=Open%20Issues&color=yellow)](https://www.github.com/angela64711/first-milestone-project/issues?q=is%3Aissue%20is%3Aopen%20-label%3Abug) | ![screenshot](documentation/gh-issues-open.png) |
-| [![GitHub closed issues](https://img.shields.io/github/issues-search/angela64711/first-milestone-project?query=is%3Aissue%20is%3Aclosed%20-label%3Abug&label=Closed%20Issues&color=green)](https://www.github.com/angela64711/first-milestone-project/issues?q=is%3Aissue%20is%3Aclosed%20-label%3Abug) | ![screenshot](documentation/gh-issues-closed.png) |
-
+| Link | 
+| --- | 
+| [![GitHub issues](https://img.shields.io/github/issues-search/angela64711/first-milestone-project?query=is%3Aissue%20is%3Aopen%20-label%3Abug&label=Open%20Issues&color=yellow)](https://www.github.com/angela64711/first-milestone-project/issues?q=is%3Aissue%20is%3Aopen%20-label%3Abug) | 
+| [![GitHub closed issues](https://img.shields.io/github/issues-search/angela64711/first-milestone-project?query=is%3Aissue%20is%3Aclosed%20-label%3Abug&label=Closed%20Issues&color=green)](https://www.github.com/angela64711/first-milestone-project/issues?q=is%3Aissue%20is%3Aclosed%20-label%3Abug) | 
 ### MoSCoW Prioritization
 
 I've decomposed my Epics into User Stories for prioritizing and implementing them. Using this approach, I was able to apply "MoSCoW" prioritization and labels to my User Stories within the Issues tab.
 
-- **Must Have**: guaranteed to be delivered - required to Pass the project (*max ~60% of stories*)
-- **Should Have**: adds significant value, but not vital (*~20% of stories*)
-- **Could Have**: has small impact if left out (*the rest ~20% of stories*)
+- **Must Have**: guaranteed to be delivered - required to Pass the project (*max ~85% of stories*)
+- **Should Have**: adds significant value, but not vital (*~10% of stories*)
+- **Could Have**: has small impact if left out (*the rest ~5% of stories*)
 - **Won't Have**: not a priority for this iteration - future features
 
 ## Testing
