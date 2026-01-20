@@ -174,7 +174,7 @@ h4 {
 
 .service-section {
   /*makes sure the content of each service section isn't hidden behind the fixed navbar when linking from the home page cards*/
-  scroll-margin-top: 78px;
+  scroll-margin-top: 69px;
 }
 
 
@@ -186,7 +186,7 @@ h4 {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-#services li::marker {
+.service-section li::marker {
   /*Replaces the bullet point in the lists with a unicode flower, ::marker is a pseudo element*/
   content: "\2740";
   color: var(--light-highlight-color);
