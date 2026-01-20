@@ -206,6 +206,12 @@ h4 {
   margin-top: 2rem;
 }
 
+#credentials li::marker {
+  /*Replaces the bullet point in the lists with a unicode flower, ::marker is a pseudo element*/
+  content: "\2740";
+  color: var(--light-highlight-color);
+}
+
 /* -----------------------------------------------------------------Footer */
 
 .footer {
