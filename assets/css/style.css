@@ -28,6 +28,9 @@ body {
 
 body {
   font-family: var(--primary-font);
+  /*pushes the content down under the navbar, which is fixed to the top.
+  Adjusted for the shorter navbar on mobile view*/
+  padding-top: 69px;
 }
 
 body>footer {
@@ -168,6 +171,12 @@ h4 {
 }
 
 /* -----------------------------------------------------------Services Page */
+
+.service-section {
+  /*makes sure the content of each service section isn't hidden behind the fixed navbar when linking from the home page cards*/
+  scroll-margin-top: 78px;
+}
+
 
 .services-picture {
   max-width: 100%;
