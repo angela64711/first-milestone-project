@@ -91,77 +91,53 @@ Defensive programming was manually tested with the below user acceptance testing
 
 ## User Story Testing
 
-⚠️ INSTRUCTIONS ⚠️
+| Target | Expectation | Outcome | Screenshot |
+| --- | --- | --- |
+| As a pregnant or trying-to-conceive person in Berlin | I want to quickly understand what a full-spectrum doula offers | so I can decide if this support fits my needs. | ![screenshot](documentation/features/service-cards.png) |
+| As an English-speaking expat | I want the site to feel designed for internationals | so I feel supported navigating pregnancy in Germany. | ![screenshot](documentation/features/hero-img.png) |
+| As a client at a specific pregnancy stage | I want services clearly separated by prenatal, birth, and postpartum care | so I can easily find what applies to me. | ![screenshot](documentation/features/services-page.png) |
+| As someone experiencing fertility struggles or loss | I want counseling services presented with sensitivity | so I feel safe exploring this option. | ![screenshot](documentation/features/services-page.png) |
+| As someone unfamiliar with German maternity care | I want to understand how doula support works alongside doctors and midwives | so I feel confident choosing this service. | ![screenshot](documentation/features/about-me-page.png) |
+| As a pregnant woman | I want to learn about the doula’s philosophy and background | so I can feel trust before making contact. | ![screenshot](documentation/features/about-me-page.png) |
+| As a ready-to-reach-out client | I want an easy, calming way to make contact | so reaching out doesn’t feel stressful. | ![screenshot](documentation/features/contact-page.png) |
+| As a pregnant person browsing the website on my mobile phone | I want to quickly find the information I'm looking for, using a clear and simple navigation | so that I feel supported and not overwhelmed while exploring the doula's services. | ![screenshot](documentation/features/mobile-home.png) |
+| As a doula | I want visitors to clearly understand my personal story, values, and motivations for becoming a doula | so that they feel an emotional connection and trust me before reaching out. | ![screenshot](documentation/features/about-me-page.png) |
 
-Testing User Stories is actually quite simple, once you've already got the stories defined on your README.
-
-Most of your project's **Features** should already align with the **User Stories**, so this should be as simple as creating a table with the User Story, matching with the re-used screenshot from the respective Feature.
-
-⚠️ --- END --- ⚠️
-
-| Target | Expectation | Outcome | Screenshot | 
-| --- | --- | --- | --- | 
-| As a user | I would like to see examples of why I should join | so that I can learn about the club’s mission and purpose before deciding to join. | ![screenshot](documentation/features/feature01.png) |
-| As a user | I would like to view the running schedule/timetable | so that I can decide when to join a session. | ![screenshot](documentation/features/feature02.png) |
-| As a user | I would like to see the details of different running events | so that I can prepare accordingly. | ![screenshot](documentation/features/feature03.png) |
-| As a user | I would like to view a gallery of past events | so that I can see photos of myself and others from previous runs. | ![screenshot](documentation/features/feature04.png) |
-| As a user | I would like to sign up for the running club | so that I can join the community and participate in events. | ![screenshot](documentation/features/feature05.png) |
-| As a user | I would like to follow the club on various platforms (e.g., Instagram, Facebook, Twitter) | so that I can stay updated with club news and events. | ![screenshot](documentation/features/feature06.png) |
-| As a user | I would like the website to be fully responsive | so that I can easily navigate and access information from my phone, tablet, or desktop. | ![screenshot](documentation/features/feature07.png) |
-| As a user | I would like to see a 404 error page if I get lost | so that it's obvious that I've stumbled upon a page that doesn't exist. | ![screenshot](documentation/features/feature08.png) |
 
 ## Bugs
 
-⚠️ INSTRUCTIONS ⚠️
-
-Nobody likes bugs,... except the assessors! Projects seem more suspicious if a student doesn't properly track their bugs. If you're about to submit your project without any bugs listed below, you should ask yourself why you're doing this course in the first place, if you're able to build this entire application without running into any bugs. The best thing you can do for any project is to document your bugs! Not only does it show the true stages of development, but think of it as breadcrumbs for yourself in the future, should you encounter the same/similar bug again, it acts as a gentle reminder on what you did to fix the bug.
-
-If/when you encounter bugs during the development stages of your project, you should document them here, ideally with a screenshot explaining what the issue was, and what you did to fix the bug.
-
-Alternatively, an improved way to manage bugs is to use the built-in **[Issues](https://www.github.com/angela64711/first-milestone-project/issues)** tracker on your GitHub repository. This can be found at the top of your repository, the tab called "Issues".
-
-If using the Issues tracker for bug management, you can simplify the documentation process for testing. Issues allow you to directly paste screenshots into the issue page without having to first save the screenshot locally. You can add labels to your issues (e.g. `bug`), assign yourself as the owner, and add comments/updates as you progress with fixing the issue(s). Once you've solved the issue/bug, you should then "Close" it.
-
-When showcasing your bug tracking for assessment, you can use the following examples below.
-
-⚠️ --- END --- ⚠️
-
 ### Fixed Bugs
 
-[![GitHub issue custom search](https://img.shields.io/github/issues-search/angela64711/first-milestone-project?query=is%3Aissue%20is%3Aclosed%20label%3Abug&label=Fixed%20Bugs&color=green)](https://www.github.com/angela64711/first-milestone-project/issues?q=is%3Aissue+is%3Aclosed+label%3Abug)
+#### Bug 1
 
-I've used [GitHub Issues](https://www.github.com/angela64711/first-milestone-project/issues) to track and manage bugs and issues during the development stages of my project.
+The four service cards on the home page were not behaving as expected at different breakpoints. Even though they stacked correctly on moblie width, they touched each other when they appeared two or four in a row at larger screen sizes. Many attempts were made to address the issue utilising m- and p- Bootstrap classes and CSS positioning. After a lot of tries I came to the conclusion that the grid was breaking, because cards were placed in the same column. I corrected that, but still the responsiveness wasn't as expected and after researching in Bootstrap, I implemented a card grid, which brought the desired results.  
 
-All previously closed/fixed bugs can be tracked [here](https://www.github.com/angela64711/first-milestone-project/issues?q=is%3Aissue+is%3Aclosed+label%3Abug).
+![screenshot](documentation/bugs/bug1.png) 
+![screenshot](documentation/bugs/bug1-fix.png)
 
-![screenshot](documentation/bugs/gh-issues-closed.png)
+#### Bug 2
 
-### Unfixed Bugs
+The buttons with the links in the bottom of the cards, weren't properly aligned and staying in the bottom of the card. Their position was affected by the length of the text above. Trying to fix the link into a specific position with CSS or mb classes didn't work. To fix that bug I introduced a card footer and set a min card-body length. The code can be seen in the screenshots above.
 
-⚠️ INSTRUCTIONS ⚠️
+#### Bug 3
 
-You will need to mention any unfixed bugs and why they are not fixed upon submission of your project. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. Where possible, you must fix all outstanding bugs, unless outside of your control.
+The detailed text of each of the services in the services section was behaving in a problematic way and not responsively. To fix that I took the list out of the paragraph element.
 
-If you've identified any unfixed bugs, no matter how small, be sure to list them here! It's better to be honest and list them, because if it's not documented and an assessor finds the issue, they need to know whether or not you're aware of them as well, and why you've not corrected/fixed them.
+![screenshot](documentation/bugs/bug3.png) 
+![screenshot](documentation/bugs/bug3-fix.png)
 
-⚠️ --- END --- ⚠️
+#### Bug 4
 
-[![GitHub issue custom search](https://img.shields.io/github/issues-search/angela64711/first-milestone-project?query=is%3Aissue%2Bis%3Aopen%2Blabel%3Abug&label=Unfixed%20Bugs&color=red)](https://www.github.com/angela64711/first-milestone-project/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+Slight horizontal scrolling was visilbe in the home page. Trying to identify each element of the page that might cause it and understanding the inherited Bootstrap margins or paddings didn't help. I switched to the container-fluid class and implemented the following CSS, after researcing CSS tutorials.
 
-Any remaining open issues can be tracked [here](https://www.github.com/angela64711/first-milestone-project/issues?q=is%3Aissue+is%3Aopen+label%3Abug).
+![screenshot](documentation/bugs/bug4-fix.png)
 
-![screenshot](documentation/bugs/gh-issues-open.png)
-
-NOTE: Service card buttons misalign slightly at some specific screen sizes, like 1500px and 1929px due to text reflow.
-  They function well at Bootstrap breakpoints.
-   Fix later with flex-based card layout if needed. 
 
 ### Known Issues
 
-| Issue | Screenshot |
-| --- | --- |
-| The project is designed to be responsive from `375px` and upwards, in line with the material taught on the course LMS. Minor layout inconsistencies may occur on extra-wide (e.g. 4k/8k monitors), or smart-display devices (e.g. Nest Hub, Smart Watches, Gameboy Color, etc.), as these resolutions are outside the project’s scope, as taught by Code Institute. | ![screenshot](documentation/issues/poor-responsiveness.png) |
-| When validating HTML with a semantic `<section>` element, the validator warns about lacking a header `h2-h6`. This is acceptable. | ![screenshot](documentation/issues/section-header.png) |
+The project is designed to be responsive from `375px` and upwards, at all four screen sizes tested in line with the material taught on the course LMS. 
+Service card buttons misalign slightly at some random screen widths, like 1372px and 1566px due to text reflow, as these resolutions are outside the project’s scope, as taught by Code Institute. ![screenshot](documentation/bugs/poor-responsiveness.png) |
+
 
 > [!IMPORTANT]  
 > There are no remaining bugs that I am aware of, though, even after thorough testing, I cannot rule out the possibility.

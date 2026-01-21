@@ -185,7 +185,7 @@ I've used [tldraw](https://www.tldraw.com/) to design my site wireframes.
 | As a pregnant woman | I want to learn about the doula’s philosophy and background | so I can feel trust before making contact. |
 | As a ready-to-reach-out client | I want an easy, calming way to make contact | so reaching out doesn’t feel stressful. |
 | As a pregnant person browsing the website on my mobile phone | I want to quickly find the information I'm looking for, using a clear and simple navigation | so that I feel supported and not overwhelmed while exploring the doula's services. |
-| As a doula | I want visitors to clearly understand my personal story, values, and motivations for becoming a doula | so that they feel an emotional connection and trust me before reaching out.
+| As a doula | I want visitors to clearly understand my personal story, values, and motivations for becoming a doula | so that they feel an emotional connection and trust me before reaching out. |
 
 ## Responsiveness and Accessibility
 
