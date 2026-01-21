@@ -3,7 +3,6 @@
 > [!NOTE]  
 > Return back to the [README.md](README.md) file.
 
-
 ## Code Validation
 
 ### HTML
@@ -48,22 +47,14 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 | Page | Chrome | Firefox | Edge | Notes |
 | --- | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/testing/chrome-home.png) | ![screenshot](documentation/testing/firefox-home.png) | ![screenshot](documentation/testing/edge-home.png) | Works as expected |
-| Services | ![screenshot](documentation/testing/chrome-services.png) | ![screenshot](documentation/testing/firefox-services.png) | ![screenshot](documentation/testing/edge-services.png) | Works as expected |
-| About Me | ![screenshot](documentation/testing/chrome-about.png) | ![screenshot](documentation/testing/firefox-about.png) | ![screenshot](documentation/testing/edge-about.png) | Works as expected |
-| Contact | ![screenshot](documentation/testing/chrome-contact.png) | ![screenshot](documentation/testing/firefox-contact.png) | ![screenshot](documentation/testing/edge-contact.png) | Works as expected |
-| Success | ![screenshot](documentation/testing/chrome-success.png) | ![screenshot](documentation/testing/firefox-success.png) | ![screenshot](documentation/testing/edge-success.png) | Works as expected |
-| 404 | ![screenshot](documentation/testing/chrome-404.png) | ![screenshot](documentation/testing/firefox-404.png) | ![screenshot](documentation/testing/edge-404.png) | Works as expected |
+| Home | ![screenshot](documentation/testing/chrome-home.png) | ![screenshot](documentation/testing/firefox-home.png) | ![screenshot](documentation/testing/edge-home.webp) | Works as expected |
+| Services | ![screenshot](documentation/testing/chrome-services.png) | ![screenshot](documentation/testing/firefox-services.png) | ![screenshot](documentation/testing/edge-services.webp) | Works as expected |
+| About Me | ![screenshot](documentation/testing/chrome-about.png) | ![screenshot](documentation/testing/firefox-about.png) | ![screenshot](documentation/testing/edge-about.webp) | Works as expected |
+| Contact | ![screenshot](documentation/testing/chrome-contact.png) | ![screenshot](documentation/testing/firefox-contact.png) | ![screenshot](documentation/testing/edge-contact.webp) | Works as expected |
+| Success | ![screenshot](documentation/testing/chrome-success.png) | ![screenshot](documentation/testing/firefox-success.png) | ![screenshot](documentation/testing/edge-success.webp) | Works as expected |
+| 404 | ![screenshot](documentation/testing/chrome-404.png) | ![screenshot](documentation/testing/firefox-404.png) | ![screenshot](documentation/testing/edge-404.webp) | Works as expected |
 
 ## Lighthouse Audit
-
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to discuss testing the live/deployed site's Lighthouse Audit reports. Avoid testing the local version (Gitpod/VSCode/etc.), as this can have knock-on effects for performance. If you don't have "Lighthouse" in your Developer Tools, it can be added as an [extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk).
-
-Unless your project is a single-page application (SPA), you should test Lighthouse Audit results for all of your pages, for both *mobile* and *desktop*.
-
-⚠️ --- END --- ⚠️
 
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues. Some warnings are outside of my control, and mobile results tend to be lower than desktop.
 
@@ -78,51 +69,25 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ## Defensive Programming
 
-⚠️ INSTRUCTIONS ⚠️
-
-Defensive programming (defensive design) is extremely important! When building projects that accept user inputs or forms, you should always test the level of security for each form field. Examples of this could include (but not limited to):
-
-All Projects:
-
-- Users cannot submit an empty form (add the `required` attribute)
-- Users must enter valid field types (ensure the correct input `type=""` is used)
-- Users cannot brute-force a URL to navigate to a restricted pages
-
-
-You'll want to test all functionality on your application, whether it's a standard form, or CRUD functionality, for data manipulation on a database. Try to access various pages on your site as different user types (User-A, User-B, guest user, admin, superuser). You should include any manual tests performed, and the expected results/outcome.
-
-Testing should be replicable (can someone else replicate the same outcome?). Ideally, tests cases should focus on each individual section of every page on the website. Each test case should be specific, objective, and step-wise replicable.
-
-Instead of adding a general overview saying that everything works fine, consider documenting tests on each element of the page (eg. button clicks, input box validation, navigation links, etc.) by testing them in their "happy flow", their "bad/exception flow", mentioning the expected and observed results, and drawing a parallel between them where applicable.
-
-Consider using the following format for manual test cases:
-
-- Expected Outcome / Test Performed / Result Received / Fixes Implemented
-
-- **Expected**: "Feature is expected to do X when the user does Y."
-- **Testing**: "Tested the feature by doing Y."
-- (either) **Result**: "The feature behaved as expected, and it did Y."
-- (or) **Result**: "The feature did not respond to A, B, or C."
-- **Fix**: "I did Z to the code because something was missing."
-
-Use the table below as a basic start, and expand on it using the logic above.
-
-⚠️ --- END --- ⚠️
-
 Defensive programming was manually tested with the below user acceptance testing:
 
-| Page | Expectation | Test | Result | Screenshot |
+| Page | Expectation | Test | Result | Screenshot | Screenshot 2 |
 | --- | --- |  --- |  --- |  --- |
-| Home | Feature is expected to display examples of why users should join. | Verified that the page displays the club’s mission and purpose in a clear and concise manner. | The mission and purpose were displayed as expected. | ![screenshot](documentation/defensive/home.png) |
 | | Feature is expected to have accessible navigation links. | Checked navigation links for correct functionality and accessibility. | Navigation links were functional and accessible. | ![screenshot](documentation/defensive/navigation.png) |
-| | Feature is expected to be fully responsive. | Resized the browser window and tested on multiple devices (mobile, tablet, desktop). | The page was responsive across all tested screen sizes. | ![screenshot](documentation/defensive/responsive.png) |
-| Schedule/Timetable | Feature is expected to show the running schedule/timetable for sessions. | Confirmed that the page contains a structured table or list with session timings. | Timetable was displayed as expected. | ![screenshot](documentation/defensive/schedule.png) |
-| Events | Feature is expected to display details of different running events. | Verified that the page lists upcoming events with relevant details. | Event details were displayed as expected. | ![screenshot](documentation/defensive/events.png) |
-| Gallery | Feature is expected to showcase a gallery of past events. | Verified that the gallery contains clear images that aren't stretched, pixelated, and fully responsive. | Images are properly sized, and respond well to different device sizes. | ![screenshot](documentation/defensive/gallery.png) |
-| Sign-Up Form | Feature is expected to prevent submission of an empty form. | Attempted to submit the form without filling any fields. | Form submission was blocked, as expected. | ![screenshot](documentation/defensive/signup01.png) |
-| | Feature is expected to enforce valid input types for each field. | Entered invalid data (e.g., random text in an email field, numbers in a name field, etc.). | Error messages were displayed appropriately, and submission was blocked. | ![screenshot](documentation/defensive/signup02.png) |
-| Social Links | Feature is expected to include working links to the club’s social platforms (Instagram, Facebook, etc.). | Clicked each social link to verify redirection to the correct platform page. | All links redirected to the correct platform pages, opening in new browser tabs. | ![screenshot](documentation/defensive/socialmedia.png) |
-| 404 Error Page | Feature is expected to display a 404 error page for non-existent pages. | Navigated to an invalid URL (e.g., `/test`) to test error handling. | A custom 404 error page was displayed as expected. | ![screenshot](documentation/defensive/404.png) |
+| | Feature is expected to be fully responsive. | Resized the browser window and tested on multiple devices (mobile, tablet, desktop). | The page was responsive across all tested screen sizes. | ![screenshot](documentation/defensive/responsive01.png) | ![screenshot](documentation/defensive/responsive02.png) |
+| Home | Feature is expected to display a hero image with the doula's name, a desciption of what she doeas and her moto, along with a CTA to contact her. | Verified that the page displays the doula's name, field and moto in a clear and concise manner. | The CTA to the contact page works as expected. | ![screenshot](documentation/defensive/hero.png) 
+| Home | Feature is expected to display four cards, summarizing each of the services offered. Each is expected to inclide a link to the corresponding section in the srvices page.| Verified that the cards are displayed as expected | The links to the services page works as expected. | ![screenshot](documentation/defensive/cards.png) | ![screenshot](documentation/defensive/card-link.png) |
+| Home | Feature is expected to display a portrait image of the doula, a short text about her, along with a CTA to find out more about her, which links to the About Me page. | Verified that the page displays the doula's portrait and a short text. | The CTA to the About Me page works as expected. | ![screenshot](documentation/defensive/doula01.png) |
+| Home | Feature is expected to display two logos of the websites where the doula has been featured, both of which are links to the corresponding websites. | Verified that the page displays the featured in section with the two logos. | The links to the websites work as expected and open in a different tab. | ![screenshot](documentation/defensive/featured.png) | ![screenshot](documentation/defensive/tcm.png) |
+| Services | Feature is expected to show the services the doula offers, after a short intro text,  along with detailed descriptions of what they include, an image and a CTA to the contact page | Confirmed that the page displays the services, ina structured manner. | Each link to the contact page works as expected. | ![screenshot](documentation/defensive/services.png) | ![screenshot](documentation/defensive/services.png) |
+| Services | Feature is expected to show the packages the doula offers along with their prices. | Confirmed that the page contains the four packages offered. | They was displayed as expected. | ![screenshot](documentation/defensive/packages.png) |
+| About Me | Feature is expected to show a portrait picture of the doula, a short intro about her with a CTA to send a message, allong with a long text about her story and a CTA to the services page. | Confirmed that the page contains the portrait image of the doula, along with the two texts and two CTA buttons. | The links work as expected. | ![screenshot](documentation/defensive/about.png) |
+| About Me | Feature is expected to show the doula's education, credentials and training in the form of a list. | Confirmed that the page contains all the necessary information about her qualifications. | All the credentials were displayed as expected. | ![screenshot](documentation/defensive/schedule.png) |
+| Contact | Feature is expected to prevent submission of an empty form. | Attempted to submit the form without filling any fields. | Form submission was blocked, as expected. | ![screenshot](documentation/defensive/contact01.png) |
+| Contact | Feature is expected to enforce valid input types for each field. | Entered invalid data (e.g., random text in an email field, numbers in a name field, etc.). | Error messages were displayed appropriately, and submission was blocked. | ![screenshot](documentation/defensive/contact02.png) |
+| Success | Feature is expected to show an affirmative message after the form has been submited correctly, which includes a link to the home page. | Entered valid data. | Success messages were displayed appropriately and the link worked as expected. | ![screenshot](documentation/defensive/success.png) |
+| Social Links | Feature is expected to include working links to the doula’s social platforms (Instagram and Facebook). | Clicked each social link to verify redirection to the correct platform page. | All links redirected to the correct platform pages, opening in new browser tabs. | ![screenshot](documentation/defensive/facebook.png) | ![screenshot](documentation/defensive/instagram.png)
+| 404 Error Page | Feature is expected to display a 404 error page for non-existent pages. | Navigated to an invalid URL (e.g., `/no`) to test error handling. | A custom 404 error page was displayed as expected. | ![screenshot](documentation/defensive/404.png) |
 
 ## User Story Testing
 
