@@ -82,7 +82,7 @@ Defensive programming was manually tested with the below user acceptance testing
 | Services | Feature is expected to show the services the doula offers, after a short intro text,  along with detailed descriptions of what they include, an image and a CTA to the contact page | Confirmed that the page displays the services, in a structured manner. | Each link to the contact page works as expected. | ![screenshot](documentation/defensive/services.png) | ![screenshot](documentation/defensive/services.png) |
 | Services | Feature is expected to show the packages the doula offers along with their prices. | Confirmed that the page contains the four packages offered. | They were displayed as expected. | ![screenshot](documentation/defensive/packages.png) | |
 | About Me | Feature is expected to show a portrait picture of the doula, a short intro about her with a CTA to send a message, along with a long text about her story and a CTA to the services page. | Confirmed that the page contains the portrait image of the doula, along with the two texts and two CTA buttons. | The links work as expected. | ![screenshot](documentation/defensive/about.png) | |
-| About Me | Feature is expected to show the doula's education, credentials and training in the form of a list. | Confirmed that the page contains all the necessary information about her qualifications. | All the credentials were displayed as expected. | ![screenshot](documentation/defensive/about.png.png) | |
+| About Me | Feature is expected to show the doula's education, credentials and training in the form of a list. | Confirmed that the page contains all the necessary information about her qualifications. | All the credentials were displayed as expected. | ![screenshot](documentation/defensive/about.png) | |
 | Contact | Feature is expected to prevent submission of an empty form. | Attempted to submit the form without filling any fields. | Form submission was blocked, as expected. | ![screenshot](documentation/defensive/contact01.png) | |
 | Contact | Feature is expected to enforce valid input types for each field. | Entered invalid data (e.g., random text in an email field, numbers in a name field, etc.). | Error messages were displayed appropriately, and submission was blocked. | ![screenshot](documentation/defensive/contact02.png) | |
 | Success | Feature is expected to show an affirmative message after the form has been submitted correctly, which includes a link to the home page. | Entered valid data. | Success messages were displayed appropriately and the link worked as expected. | ![screenshot](documentation/defensive/success.png) | |
@@ -92,7 +92,7 @@ Defensive programming was manually tested with the below user acceptance testing
 ## User Story Testing
 
 | Target | Expectation | Outcome | Screenshot |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | As a pregnant or trying-to-conceive person in Berlin | I want to quickly understand what a full-spectrum doula offers | so I can decide if this support fits my needs. | ![screenshot](documentation/features/service-cards.png) |
 | As an English-speaking expat | I want the site to feel designed for internationals | so I feel supported navigating pregnancy in Germany. | ![screenshot](documentation/features/hero-img.png) |
 | As a client at a specific pregnancy stage | I want services clearly separated by prenatal, birth, and postpartum care | so I can easily find what applies to me. | ![screenshot](documentation/features/services-page.png) |
