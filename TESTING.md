@@ -30,7 +30,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 ## Responsiveness
 
-I've tested my deployed project to check for responsiveness issues.
+I have tested my deployed project to check for responsiveness issues.
 
 | Page | Mobile | Tablet | Desktop | Notes |
 | --- | --- | --- | --- | --- |
@@ -43,7 +43,7 @@ I've tested my deployed project to check for responsiveness issues.
 
 ## Browser Compatibility
 
-I've tested my deployed project on multiple browsers to check for compatibility issues.
+I have tested my deployed project on multiple browsers to check for compatibility issues.
 
 | Page | Chrome | Firefox | Edge | Notes |
 | --- | --- | --- | --- | --- |
@@ -56,7 +56,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 ## Lighthouse Audit
 
-I've tested my deployed project using the Lighthouse Audit tool to check for any major issues. Some warnings are outside of my control, and mobile results tend to be lower than desktop.
+I have tested my deployed project using the Lighthouse Audit tool to check for any major issues. Some warnings are outside of my control, and mobile results tend to be lower than desktop.
 
 | Page | Mobile | Desktop |
 | --- | --- | --- |
@@ -75,17 +75,17 @@ Defensive programming was manually tested with the below user acceptance testing
 | --- | --- |  --- |  --- |  --- |
 | | Feature is expected to have accessible navigation links. | Checked navigation links for correct functionality and accessibility. | Navigation links were functional and accessible. | ![screenshot](documentation/defensive/navigation.png) |
 | | Feature is expected to be fully responsive. | Resized the browser window and tested on multiple devices (mobile, tablet, desktop). | The page was responsive across all tested screen sizes. | ![screenshot](documentation/defensive/responsive01.png) | ![screenshot](documentation/defensive/responsive02.png) |
-| Home | Feature is expected to display a hero image with the doula's name, a desciption of what she doeas and her moto, along with a CTA to contact her. | Verified that the page displays the doula's name, field and moto in a clear and concise manner. | The CTA to the contact page works as expected. | ![screenshot](documentation/defensive/hero.png) 
-| Home | Feature is expected to display four cards, summarizing each of the services offered. Each is expected to inclide a link to the corresponding section in the srvices page.| Verified that the cards are displayed as expected | The links to the services page works as expected. | ![screenshot](documentation/defensive/cards.png) | ![screenshot](documentation/defensive/card-link.png) |
+| Home | Feature is expected to display a hero image with the doula's name, a desciption of what she does and her motto, along with a CTA to contact her. | Verified that the page displays the doula's name, field and motto in a clear and concise manner. | The CTA to the contact page works as expected. | ![screenshot](documentation/defensive/hero.png) 
+| Home | Feature is expected to display four cards, summarizing each of the services offered. Each is expected to include a link to the corresponding section in the services page.| Verified that the cards are displayed as expected | The links to the services page works as expected. | ![screenshot](documentation/defensive/cards.png) | ![screenshot](documentation/defensive/card-link.png) |
 | Home | Feature is expected to display a portrait image of the doula, a short text about her, along with a CTA to find out more about her, which links to the About Me page. | Verified that the page displays the doula's portrait and a short text. | The CTA to the About Me page works as expected. | ![screenshot](documentation/defensive/doula01.png) |
 | Home | Feature is expected to display two logos of the websites where the doula has been featured, both of which are links to the corresponding websites. | Verified that the page displays the featured in section with the two logos. | The links to the websites work as expected and open in a different tab. | ![screenshot](documentation/defensive/featured.png) | ![screenshot](documentation/defensive/tcm.png) |
-| Services | Feature is expected to show the services the doula offers, after a short intro text,  along with detailed descriptions of what they include, an image and a CTA to the contact page | Confirmed that the page displays the services, ina structured manner. | Each link to the contact page works as expected. | ![screenshot](documentation/defensive/services.png) | ![screenshot](documentation/defensive/services.png) |
-| Services | Feature is expected to show the packages the doula offers along with their prices. | Confirmed that the page contains the four packages offered. | They was displayed as expected. | ![screenshot](documentation/defensive/packages.png) |
-| About Me | Feature is expected to show a portrait picture of the doula, a short intro about her with a CTA to send a message, allong with a long text about her story and a CTA to the services page. | Confirmed that the page contains the portrait image of the doula, along with the two texts and two CTA buttons. | The links work as expected. | ![screenshot](documentation/defensive/about.png) |
+| Services | Feature is expected to show the services the doula offers, after a short intro text,  along with detailed descriptions of what they include, an image and a CTA to the contact page | Confirmed that the page displays the services, in a structured manner. | Each link to the contact page works as expected. | ![screenshot](documentation/defensive/services.png) | ![screenshot](documentation/defensive/services.png) |
+| Services | Feature is expected to show the packages the doula offers along with their prices. | Confirmed that the page contains the four packages offered. | They were displayed as expected. | ![screenshot](documentation/defensive/packages.png) |
+| About Me | Feature is expected to show a portrait picture of the doula, a short intro about her with a CTA to send a message, along with a long text about her story and a CTA to the services page. | Confirmed that the page contains the portrait image of the doula, along with the two texts and two CTA buttons. | The links work as expected. | ![screenshot](documentation/defensive/about.png) |
 | About Me | Feature is expected to show the doula's education, credentials and training in the form of a list. | Confirmed that the page contains all the necessary information about her qualifications. | All the credentials were displayed as expected. | ![screenshot](documentation/defensive/schedule.png) |
 | Contact | Feature is expected to prevent submission of an empty form. | Attempted to submit the form without filling any fields. | Form submission was blocked, as expected. | ![screenshot](documentation/defensive/contact01.png) |
 | Contact | Feature is expected to enforce valid input types for each field. | Entered invalid data (e.g., random text in an email field, numbers in a name field, etc.). | Error messages were displayed appropriately, and submission was blocked. | ![screenshot](documentation/defensive/contact02.png) |
-| Success | Feature is expected to show an affirmative message after the form has been submited correctly, which includes a link to the home page. | Entered valid data. | Success messages were displayed appropriately and the link worked as expected. | ![screenshot](documentation/defensive/success.png) |
+| Success | Feature is expected to show an affirmative message after the form has been submitted correctly, which includes a link to the home page. | Entered valid data. | Success messages were displayed appropriately and the link worked as expected. | ![screenshot](documentation/defensive/success.png) |
 | Social Links | Feature is expected to include working links to the doula’s social platforms (Instagram and Facebook). | Clicked each social link to verify redirection to the correct platform page. | All links redirected to the correct platform pages, opening in new browser tabs. | ![screenshot](documentation/defensive/facebook.png) | ![screenshot](documentation/defensive/instagram.png)
 | 404 Error Page | Feature is expected to display a 404 error page for non-existent pages. | Navigated to an invalid URL (e.g., `/no`) to test error handling. | A custom 404 error page was displayed as expected. | ![screenshot](documentation/defensive/404.png) |
 
@@ -110,35 +110,35 @@ Defensive programming was manually tested with the below user acceptance testing
 
 #### Bug 1
 
-The four service cards on the home page were not behaving as expected at different breakpoints. Even though they stacked correctly on moblie width, they touched each other when they appeared two or four in a row at larger screen sizes. Many attempts were made to address the issue utilising m- and p- Bootstrap classes and CSS positioning. After a lot of tries I came to the conclusion that the grid was breaking, because cards were placed in the same column. I corrected that, but still the responsiveness wasn't as expected and after researching in Bootstrap, I implemented a card grid, which brought the desired results.  
+The four service cards on the home page were not behaving as expected at different breakpoints. Even though they stacked correctly on mobile width, they touched each other when they appeared two or four in a row at larger screen sizes. Many attempts were made to address the issue utilising m- and p- Bootstrap classes and CSS positioning. After many attempts, I came to the conclusion that the grid was breaking, because cards were placed in the same column. I corrected that, but still the responsiveness wasn't as expected and after researching Bootstrap documentation, I implemented a card grid, which brought the desired results.  
 
 ![screenshot](documentation/bugs/bug1.png) 
 ![screenshot](documentation/bugs/bug1-fix.png)
 
 #### Bug 2
 
-The buttons with the links in the bottom of the cards, weren't properly aligned and staying in the bottom of the card. Their position was affected by the length of the text above. Trying to fix the link into a specific position with CSS or mb classes didn't work. To fix that bug I introduced a card footer and set a min card-body length. The code can be seen in the screenshots above.
+The buttons with the links in the bottom of the cards, were not properly aligned and staying in the bottom of the card. Their position was affected by the length of the text above. Trying to fix the link into a specific position with CSS or mb classes didn't work. To fix that bug I introduced a card footer and set a min card-body length. The code can be seen in the screenshots above.
 
 #### Bug 3
 
-The detailed text of each of the services in the services section was behaving in a problematic way and not responsively. To fix that I took the list out of the paragraph element.
+The detailed text of each of the services in the services section was behaving problematically and not responsively. To fix this, I took the list out of the paragraph element.
 
 ![screenshot](documentation/bugs/bug3.png) 
 ![screenshot](documentation/bugs/bug3-fix.png)
 
 #### Bug 4
 
-Slight horizontal scrolling was visilbe in the home page. Trying to identify each element of the page that might cause it and understanding the inherited Bootstrap margins or paddings didn't help. I switched to the container-fluid class and implemented the following CSS, after researcing CSS tutorials.
+Slight horizontal scrolling was visible in the home page. Trying to identify each element of the page that might cause it and understanding the inherited Bootstrap margins or paddings didn't help. I switched to the container-fluid class and implemented the following CSS, after researching CSS tutorials.
 
 ![screenshot](documentation/bugs/bug4-fix.png)
 
 
 ### Known Issues
 
-The project is designed to be responsive from `375px` and upwards, at all four screen sizes tested in line with the material taught on the course LMS. 
+The project is designed to be responsive from `375px` and upwards, at all four screen sizes tested, in line with the material taught on the course LMS. 
 Service card buttons misalign slightly at some random screen widths, like 1372px and 1566px due to text reflow, as these resolutions are outside the project’s scope, as taught by Code Institute. ![screenshot](documentation/bugs/poor-responsiveness.png) |
 
 
 > [!IMPORTANT]  
-> There are no remaining bugs that I am aware of, though, even after thorough testing, I cannot rule out the possibility.
+> There are no remaining bugs that I am aware of, though, even after thorough testing, I cannot completely rule out the possibility of minor undiscovered issues.
 

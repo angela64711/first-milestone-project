@@ -11,11 +11,11 @@ Developer: Angeliki Kyratzidou ([angela64711](https://www.github.com/angela64711
 
 ## Project Overview
 
-This project is a responsive, mobile-first website designed for an english-speaking full spectrum doula in Berlin, named Evita Varela.
+This project is a responsive, mobile-first website designed for an English-speaking full-spectrum doula in Berlin, named Evita Varela.
 The website aims to provide clear information about services, build trust through storytelling and testimonials, and make it easy for users to get in touch.
 
-The project was created as part of a coding sourse at Code Institute and focuses on thoughful UX decisions, accessibility, and clean front-end implementation.
-It was intentionally based on a real professional, rather than a fictional person or business. Working with an existing subject allowed for a more realistic design process, including real constraints, authentic content, and meaningful user needs. Due to the nature of doula work, the project required deeper consideration of user experience, content hierarchy, and tone. This encouraged additional UX research and reflection, perticularly around accessibility, emotional safety, and mobile usability. Choosing a real-world subject supported a more practical learning experience and helped bridge the gap between theoretical knowledge and real-life front-end development and design decision making.
+The project was created as part of a coding course at Code Institute and focuses on thoughtful UX decisions, accessibility and clean front-end implementation.
+It was intentionally based on a real professional, rather than a fictional person or business. Working with an existing subject allowed for a more realistic design process, including real constraints, authentic content and meaningful user needs. Due to the nature of doula work, the project required deeper consideration of user experience, content hierarchy and tone. This encouraged additional UX research and reflection, particularly around accessibility, emotional safety and mobile usability. Choosing a real-world subject supported a more practical learning experience and helped bridge the gap between theoretical knowledge and real-life front-end development and design decision making.
 
 ## Site Mockups
 
@@ -44,7 +44,7 @@ It was intentionally based on a real professional, rather than a fictional perso
 #### 1. Strategy
 
 **Purpose**
-The target audience for this website are women, who are navigating pregnancy, birth and postpartum recovery, their partners, and individuals experiencing fertility challenges who are seeking support in English in Berlin.
+The target audience for this website are women, who are navigating pregnancy, birth and postpartum recovery, their partners and individuals experiencing fertility challenges who are seeking support in English in Berlin.
 - Encourage users to contact the doula and inquire about her services.
 - Provide a seamless user experience to keep users informed and engaged.
 
@@ -55,8 +55,8 @@ The primary goals of the target audience are:
 - To be able to contact her easily
 - To be reassured that their needs will be met in a thoughtful, warm and non-judgemental way, especially for those reaching out about their challenges
 - To not feel pressured into making a decision about getting in contact
-- To examine if the services povided are within their budget
-- To find out what the psysichal and emotional benefits wil be
+- To examine if the services provided are within their budget
+- To find out what the physichal and emotional benefits will be
 
 **Business Goals**
 
@@ -79,11 +79,11 @@ This website is a great way for the potential clients to meet their needs, becau
 
 To meet the business goal:
 
-- Careful and targeted decisions were made, redaring content, layout and appearence, taking into account the nature of her work and the very specific target audience
+- Careful and targeted decisions were made, regaring content, layout and appearance, taking into account the nature of her work and the very specific target audience
 - The content was adjusted from her current website, after being reworked. The language used is less clinical and academic and more warm, caring, inclusive and sensitive, without it feeling exaggerated or fluffy
 - The scope of her work is presented clearly, revealing the depth of her training and knowledge
-- It promotes trust, honesty, care, connection and reflects her values and philoshophy
-- The presetation of her voice is strong and authentic, promoted by the compelling writing of her personal story
+- It promotes trust, honesty, care, connection and reflects her values and philosophy
+- The presentation of her voice is strong and authentic, promoted by the compelling writing of her personal story
 - The overall feel is user-friendly, professional, thoughtful and respectful
 
 #### 3. Structure
@@ -96,9 +96,9 @@ The website uses a simple and clear structure with the following pages:
 - About Me
 - Contact
 
-The information architecrture of the website was designed to prioritize clarity, emotional safety, and ease of navigation, especially for mobile users. Content is organised into a small number of clearly labelled pages to reduce cognitive load and help users quickly find the information most relevant to their needs.
-The main navigation includes Home, Services, About Me, and Contact. Services-related information is grouped into four main categories that correspond to the service cards on the home page. This consistency allows users to form a clear and mental model as they move between the pages.
-Long-form personal content, such as the doula's story and background, is placed on the About Me page and presented in a linear layout to support comfotrable reading. Credentials, languages, and testimonials are positioned after the personal narrative to reinforce trust without interrupting the emotional flow.
+The information architecture of the website was designed to prioritize clarity, emotional safety and ease of navigation, especially for mobile users. Content is organised into a small number of clearly labelled pages to reduce cognitive load and help users quickly find the information most relevant to their needs.
+The main navigation includes Home, Services, About Me and Contact. Services-related information is grouped into four main categories that correspond to the service cards on the home page. This consistency allows users to form a clear and mental model as they move between the pages.
+Long-form personal content, such as the doula's story and background, is placed on the About Me page and presented in a linear layout to support comfortable reading. Credentials, languages, and testimonials are positioned after the personal narrative to reinforce trust without interrupting the emotional flow.
 The contact page was designed with a simple primary goal: to enable the user to easily get in touch. On larger screens, additional text was used to balance the layout, while keeping the form as the main focus.
 All pages are accessible from the main navigation on all screen sizes.
 The footer was intentionally kept minimal, containing only social media links, to avoid distractions and keep the focus on the primary user journey.
@@ -112,11 +112,11 @@ The footer was intentionally kept minimal, containing only social media links, t
 
 **Content Strategy**
 Due to the nature of doula work, content plays an integral role in this website. The written content is rich and was designed to create a sense of safety, trust, and emotional support, while remaining clear and informative.
-A calm, empathetic, and non-judgemental tone was chosen to reflect the sensitive topics of pregnancy, birth, postpartum care, and fertility challenges. Language was kept accessible, warm and human, intentionally avoiding overly clinical or promotional wording.
+A calm, empathetic and non-judgemental tone was chosen to reflect the sensitive topics of pregnancy, birth, postpartum care and fertility challenges. Language was kept accessible, warm and human, intentionally avoiding overly clinical or promotional wording.
 Content was prioritised based on user needs, with sensitive information presented clearly and personal storytelling used to build connection and credibility.
 Testimonials and credentials were included selectively to reinforce trust without overwhelming the user.
-Pages such as "Giving Birth in Berlin" were intntionally excluded to keep the site focused on the doula's services and personal approach rather than general information content. It was determined that such information, along with practical details about the collaboration and navigating the german healthcare system would be better and more concisely presented as part of a FAQs section, that could be incorporated to the website in the future.
-I decided to use consistent, neutral, symbolic imagery for each service section and backgound to support recognition, inclusivity, consistency, emotial restraint, reduced visual noise, and maintain a calm, cohesive exerience. I intentionally avoided using the expected imagery of pregnant bellies, birth scenes, newborn babies and pregnancy tests, in order to not trigger strong emotions and exclude individuals with fertility struggles, pregnancy loss or non-visible pregnancies. That would be distracting from the service the doula provides, make the site feel more literal than supportive and emotionally safe. In addition it would make the site feel like it is about the baby, not the woman. I was midful in the way the form, the links to the services and the CTAs were designed and the placement of the prices, to ensure that the website does not feel transactional and promotional.
+Pages such as "Giving Birth in Berlin" were intentionally excluded to keep the site focused on the doula's services and personal approach rather than general information content. It was determined that such information, along with practical details about the collaboration and navigating the german healthcare system would be better and more concisely presented as part of a FAQs section, that could be incorporated to the website in the future.
+I decided to use consistent, neutral, symbolic imagery for each service section and background to support recognition, inclusivity, consistency, emotional restraint, reduced visual noise and maintain a calm, cohesive experience. I intentionally avoided using the expected imagery of pregnant bellies, birth scenes, newborn babies and pregnancy tests, in order to not trigger strong emotions and exclude individuals with fertility struggles, pregnancy loss or non-visible pregnancies. That would be distracting from the service the doula provides, make the site feel more literal than supportive and emotionally safe. In addition it would make the site feel like it is about the baby, not the woman. I was mindful in the way the form, the links to the services and the CTAs were designed and the placement of the prices, to ensure that the website does not feel transactional and promotional.
 
 
 #### 4. Skeleton
@@ -133,7 +133,7 @@ I decided to use consistent, neutral, symbolic imagery for each service section 
 
 ### Colour Scheme
 
-The color palette was chosen to evoke calm, warmth, and trust. Soft, neutural tones are combined with muted accents to support emotional safety.
+The color palette was chosen to evoke calm, warmth, and trust. Soft, neutral tones are combined with muted accents to support emotional safety.
 Key colors include:
 
 - Neutral tones for readability
@@ -212,18 +212,18 @@ Accessibility considerations include:
 | About Me preview | This section will allow the user to see a picture of the doula to inspire trust. A short text about her is also provided with a soft Call to Action to find out more about her in the form of a button. | ![screenshot](documentation/features/about-me-preview.png) |
 | Featured In Section| This section includes links to two relevant websites in which *Evita Varela* has been featured. The links will open in a new tab to allow easy navigation for the user. This is valuable to the user, as it provides credibility and builds trust towards the doula and her ability. | ![screenshot](documentation/features/featured-in-section.png) |
 | Footer | The footer includes links to the social media sites for *Evita Varela*. The links will open in a new tab to allow easy navigation for the user. The footer is valuable to the user, as it encourages them to keep connected via social media. | ![screenshot](documentation/features/footer.png) |
-| Services | The services page provides detailed informaion about the four different services provided and type of support the user can receive from the doula, including duration and benefits. Sublte CTAs are included below each service section. It also lists the packages offered, which include combinations of the adove mentioned services. | ![screenshot](documentation/features/services-page.png) |
-| About Me | The About Me page icludes a second, lagrer portrait of the *Evita Varela*, as well as a long text written in the first person, describing her journey to becoming a doula, her values, beliefs and motivation. Underneath a section about her education and credentials, training and language skills is included, to deepen the trust in her experience. At the and of the page the Featured In section is icluded once more, in order to call attention to her contributions in repsected websites regarding parenting and motherhood. | ![screenshot](documentation/features/about-me-page.png) |
-| Contact | This page will allow the user to contact *Evita Varela* and start their cooperation with her. A short reassuring text above the contact form aims to reduce aprehension and possible doubt about reaching out, since this a very personal service at a vulnerable time. The user will be able specify what type of support they are looking for, but also given the option to not specify, in case they feel uncertain or are dealing with a more comlicated situation,. The user will be asked to submit their name and email address. | ![screenshot](documentation/features/contact-page.png) |
+| Services | The services page provides detailed information about the four different services provided and type of support the user can receive from the doula, including duration and benefits. Subtle CTAs are included below each service section. It also lists the packages offered, which include combinations of the above mentioned services. | ![screenshot](documentation/features/services-page.png) |
+| About Me | The About Me page includes a second, larger portrait of the *Evita Varela*, as well as a long text written in the first person, describing her journey to becoming a doula, her values, beliefs and motivation. Underneath a section about her education and credentials, training and language skills is included, to deepen the trust in her experience. At the and of the page the Featured In section is icluded once more, in order to call attention to her contributions in respected websites regarding parenting and motherhood. | ![screenshot](documentation/features/about-me-page.png) |
+| Contact | This page will allow the user to contact *Evita Varela* and start their cooperation with her. A short reassuring text above the contact form aims to reduce aprehension and possible doubt about reaching out, since this a very personal service at a vulnerable time. The user will be able specify what type of support they are looking for, but also given the option to not specify, in case they feel uncertain or are dealing with a more comlicated situation. The user will be asked to submit their name and email address. | ![screenshot](documentation/features/contact-page.png) |
 | Success | The confirmation page will give the illusion that the contact form was submitted successfully and a message was sent to *Evita Varela*. Due to the lack of a database or email system so far, this is a fake confirmation page. | ![screenshot](documentation/features/success-page.png) |
-| 404 | The 404 error page will indicate when a user has somehow landed on a page that ins't ready to be born yet. This replaces the default GitHub Pages 404 page, and ties-in with the look and feel of the *Evita Varela* site by using the standard navbar, without the links, a link to the Home page in the form of a button and the footer. | ![screenshot](documentation/features/404-page.png) |
+| 404 | The 404 error page will indicate when a user has somehow landed on a page that isn't ready to be born yet. This replaces the default GitHub Pages 404 page, and ties-in with the look and feel of the *Evita Varela* site by using the standard navbar, without the links, a link to the Home page in the form of a button and the footer. | ![screenshot](documentation/features/404-page.png) |
 
 ### Future Features
 
-- **Testimonials Section**: *Evita varela* whishes to showcase testimonials from previous, satisfied clients clearly, so potential clients feel reassured and confident in their choice and understand her approach before contacting her.
-- **Translate the website into Greek and French**: The doula wishes her website to be available in all three languages, in which she is fluent, in oder to be able to reach more international families and expats and increase her clientbase.
-- **Blog**: Creating the layout and structure for a blog and linking it to the Home page or navbar, will allow the doula to showcase her work in writing articles and delving deeper into issues regarding pregnacy, birth and parenting. This will provide more information to the users, urging them to trust doula and hire her.
-- **FAQs Section**: Adding a FAQs section accessible from main navigation or footer, where practical questions, regarding the healthcare system, burocracy and other specific subjects, can be answered directly, will elevate the profile of the website. It will allow the users to find answers to common questions on the website easily and quickly, so that the doula spends less time responding to repetitive emails and messages. 
+- **Testimonials Section**: *Evita Varela* whishes to showcase testimonials from previous, satisfied clients clearly, so potential clients feel reassured and confident in their choice and understand her approach before contacting her.
+- **Translate the website into Greek and French**: The doula wishes her website to be available in all three languages, in which she is fluent, in order to be able to reach more international families and expats and increase her clientbase.
+- **Blog**: Creating the layout and structure for a blog and linking it to the Home page or navbar, will allow the doula to showcase her work in writing articles and delving deeper into issues regarding pregnancy, birth and parenting. This will provide more information to the users, urging them to trust doula and hire her.
+- **FAQs Section**: Adding a FAQs section accessible from main navigation or footer, where practical questions, regarding the healthcare system, bureaucracy and other specific subjects, can be answered directly, will elevate the profile of the website. It will allow the users to find answers to common questions on the website easily and quickly, so that the doula spends less time responding to repetitive emails and messages. 
 - **Connect the contact form to the doula's email**: Making the contact form functional, will ensure that the website can be used by *Evita Varela* as her actual business website.
 
 ### User Stories for the future features
