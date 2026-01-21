@@ -12,7 +12,7 @@ Developer: Angeliki Kyratzidou ([angela64711](https://www.github.com/angela64711
 ## Project Overview
 
 This project is a responsive, mobile-first website designed for an English-speaking full-spectrum doula in Berlin, named Evita Varela.
-The website aims to provide clear information about services, build trust through storytelling and testimonials, and make it easy for users to get in touch.
+The website aims to provide clear information about services, build trust through personal connection storytelling and make it easy for users to get in touch.
 
 The project was created as part of a coding course at Code Institute and focuses on thoughtful UX decisions, accessibility and clean front-end implementation.
 It was intentionally based on a real professional, rather than a fictional person or business. Working with an existing subject allowed for a more realistic design process, including real constraints, authentic content and meaningful user needs. Due to the nature of doula work, the project required deeper consideration of user experience, content hierarchy and tone. This encouraged additional UX research and reflection, particularly around accessibility, emotional safety and mobile usability. Choosing a real-world subject supported a more practical learning experience and helped bridge the gap between theoretical knowledge and real-life front-end development and design decision making.
@@ -44,11 +44,13 @@ It was intentionally based on a real professional, rather than a fictional perso
 #### 1. Strategy
 
 **Purpose**
+
 The target audience for this website are women, who are navigating pregnancy, birth and postpartum recovery, their partners and individuals experiencing fertility challenges who are seeking support in English in Berlin.
 - Encourage users to contact the doula and inquire about her services.
 - Provide a seamless user experience to keep users informed and engaged.
 
 **Primary User Needs**
+
 The primary goals of the target audience are:
 - To find information about their needs easily
 - To assess if the doula is qualified and trustworthy
@@ -69,6 +71,7 @@ The primary goals of the target audience are:
 **[Features](#features)** (see below)
 
 **Content Requirements**
+
 This website is a great way for the potential clients to meet their needs, because
 
 - The information is presented clearly and calmly
@@ -89,6 +92,7 @@ To meet the business goal:
 #### 3. Structure
 
 **Information Architecture**
+
 The website uses a simple and clear structure with the following pages:
 
 - Home
@@ -105,12 +109,14 @@ The footer was intentionally kept minimal, containing only social media links, t
 
 
 **User Flow**
+
 1. User lands on the home page → learns about the doula, sees a brief preview about her services and her bio.
 2. Navigates to the Services → sees all available services and the packages offered
 3. Views About Me Page → finds detailed information about her biography, education, credentials and training
 4. Fills out the contact form to get in touch
 
 **Content Strategy**
+
 Due to the nature of doula work, content plays an integral role in this website. The written content is rich and was designed to create a sense of safety, trust, and emotional support, while remaining clear and informative.
 A calm, empathetic and non-judgemental tone was chosen to reflect the sensitive topics of pregnancy, birth, postpartum care and fertility challenges. Language was kept accessible, warm and human, intentionally avoiding overly clinical or promotional wording.
 Content was prioritised based on user needs, with sensitive information presented clearly and personal storytelling used to build connection and credibility.
