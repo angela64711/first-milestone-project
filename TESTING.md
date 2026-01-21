@@ -135,7 +135,7 @@ Slight horizontal scrolling was visible in the home page. Trying to identify eac
 ### Known Issues
 
 The project is designed to be responsive from `375px` and upwards, at all four screen sizes tested, in line with the material taught on the course LMS. 
-Service card buttons misalign slightly at some random screen widths, like 1372px and 1566px due to text reflow, as these resolutions are outside the project’s scope, as taught by Code Institute. ![screenshot](documentation/bugs/poor-responsiveness.png) |
+Service card buttons misalign slightly at some random screen widths, like 1372px and 1560px due to text reflow, as these resolutions are outside the project’s scope, as taught by Code Institute. ![screenshot](documentation/bugs/poor-responsiveness.png) |
 
 
 > [!IMPORTANT]  
